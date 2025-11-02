@@ -14,7 +14,7 @@
     },
     {
       "label": "package (functions)",
-      "command": "mvn clean package",
+      "command": "mvn clean package azure-functions:package",
       "type": "shell",
       "group": {
         "kind": "build",

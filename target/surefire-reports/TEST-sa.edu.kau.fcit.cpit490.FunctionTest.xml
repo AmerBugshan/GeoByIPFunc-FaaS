@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sa.edu.kau.fcit.cpit490.FunctionTest" time="2.84" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\AmerB\FCIT\CPIT490\Assignment-7\target\test-classes;C:\Users\AmerB\FCIT\CPIT490\Assignment-7\target\classes;C:\Users\AmerB\.m2\repository\org\apache\commons\commons-csv\1.14.1\commons-csv-1.14.1.jar;C:\Users\AmerB\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\AmerB\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\AmerB\.m2\repository\com\microsoft\azure\functions\azure-functions-java-library\3.1.0\azure-functions-java-library-3.1.0.jar;C:\Users\AmerB\.m2\repository\com\microsoft\azure\functions\azure-functions-java-core-library\1.2.0\azure-functions-java-core-library-1.2.0.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\AmerB\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\AmerB\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\AmerB\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\AmerB\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\AmerB\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\AmerB\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Riyadh"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\AmerB\AppData\Local\Temp\surefire3264500718831623900\surefirebooter-20251102151309131_3.jar C:\Users\AmerB\AppData\Local\Temp\surefire3264500718831623900 2025-11-02T15-13-08_936-jvmRun1 surefire-20251102151309131_1tmp surefire_0-20251102151309131_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\AmerB\FCIT\CPIT490\Assignment-7\target\test-classes;C:\Users\AmerB\FCIT\CPIT490\Assignment-7\target\classes;C:\Users\AmerB\.m2\repository\org\apache\commons\commons-csv\1.14.1\commons-csv-1.14.1.jar;C:\Users\AmerB\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\AmerB\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\AmerB\.m2\repository\com\microsoft\azure\functions\azure-functions-java-library\3.1.0\azure-functions-java-library-3.1.0.jar;C:\Users\AmerB\.m2\repository\com\microsoft\azure\functions\azure-functions-java-core-library\1.2.0\azure-functions-java-core-library-1.2.0.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\AmerB\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\AmerB\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\AmerB\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\AmerB\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\AmerB\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\AmerB\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\AmerB\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AmerB"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\AmerB\FCIT\CPIT490\Assignment-7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AmerB\AppData\Local\Temp\surefire3264500718831623900\surefirebooter-20251102151309131_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="AmerB"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AmerB\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AmerB\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\AmerB\FCIT\CPIT490\Assignment-7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\flutter\bin\cache\dart-sdk\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Eclipse Adoptium\jdk-11.0.27.6-hotspot\bin;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\AmerB\FCIT\CPIT405\node\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\xampp\php\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\Docker\Docker\resources\bin;C:\Maven\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\AmerB\.config\herd-lite\bin;C:\Users\AmerB\AppData\Local\Microsoft\WindowsApps;C:\Users\AmerB\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AmerB\AppData\Roaming\npm;C:\Users\AmerB\AppData\Roaming\Composer\vendor\bin;C:\dev\flutter\bin;C:\tools\nuget;;c:\Users\AmerB\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testHttpTriggerWithMissingIP" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="2.518">
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\AmerB\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCountryFromIP_withValidIP" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.095"/>
+  <testcase name="testGetCountryFromIP_withException" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.026"/>
+  <testcase name="testIpToLong_withInvalidFormat" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.01"/>
+  <testcase name="testLookupCountryCode_withIOException" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.012"/>
+  <testcase name="testIpToLong_withValidIPs" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.003"/>
+  <testcase name="testIpToLong_withInvalidOctetValue" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.024"/>
+  <testcase name="testHttpTriggerWithValidIP" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.014"/>
+  <testcase name="testLookupCountryCode_withMatchingIP" classname="sa.edu.kau.fcit.cpit490.FunctionTest" time="0.075"/>
+</testsuite>

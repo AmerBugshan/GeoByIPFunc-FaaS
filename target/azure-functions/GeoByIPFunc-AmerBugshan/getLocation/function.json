@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../GeoByIPFunc-1.0-SNAPSHOT.jar",
+  "entryPoint" : "sa.edu.kau.fcit.cpit490.Function.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET" ],
+    "authLevel" : "FUNCTION"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
